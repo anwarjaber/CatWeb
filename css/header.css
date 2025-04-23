@@ -98,6 +98,13 @@ nav ul ul li:hover {
 }
 
 @media (max-width: 768px) {
+  nav > ul > li {
+  padding: 10px 15px;
+  margin: 0 5px;
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+  
   nav ul li:nth-child(2) ul {
     right: -20px;
     top: 100%;
